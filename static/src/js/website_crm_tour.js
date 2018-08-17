@@ -1,10 +1,10 @@
-odoo.define('website_crm.tour', function(require) {
+odoo.define('website_crm_personalizado.tour', function(require) {
     'use strict';
 
     var tour = require('web_tour.tour');
     var base = require('web_editor.base');
 
-    tour.register('website_crm_tour', {
+    tour.register('website_crm_personalizado_tour', {
         test: true,
         url: '/contactus',
         wait_for: base.ready(),

@@ -8,8 +8,8 @@
     'description': "",
     'depends': ['website_form', 'website_partner', 'crm'],
     'data': [
-        'data/website_crm_data.xml',
-        'views/website_crm_templates.xml',
+        'data/website_crm_personalizado_data.xml',
+        'views/website_crm_personalizado_templates.xml',
         'views/res_config_settings_views.xml',
     ],
     'qweb': ['static/src/xml/*.xml'],

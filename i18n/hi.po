@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * website_crm
+# * website_crm_personalizado
 #
 # Translators:
 msgid ""
@@ -17,74 +17,74 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_thanks
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_thanks
 msgid "&amp;times;"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_form
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_form
 msgid ""
 "<span class=\"btn btn-primary btn-lg o_website_form_send\">Send</span>\n"
 "                                <span id=\"o_website_form_result\"/>"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_form
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_form
 msgid "Email"
 msgstr "ईमेल"
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_thanks
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_thanks
 msgid "If you have an emergency, do not hesitate to contact us by phone:"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.model,name:website_crm.model_crm_lead
+#. module: website_crm_personalizado
+#: model:ir.model,name:website_crm_personalizado.model_crm_lead
 msgid "Lead/Opportunity"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_form
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_form
 msgid "Phone Number"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_form
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_form
 msgid "Subject"
 msgstr "विषय"
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_thanks
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_thanks
 msgid "Thanks!"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_thanks
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_thanks
 msgid "We will get back to you shortly."
 msgstr ""
 
-#. module: website_crm
-#: model:ir.actions.act_url,name:website_crm.action_open_website
+#. module: website_crm_personalizado
+#: model:ir.actions.act_url,name:website_crm_personalizado.action_open_website
 msgid "Website Contact Form"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_form
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_form
 msgid "Your Company"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_form
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_form
 msgid "Your Name"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_form
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_form
 msgid "Your Question"
 msgstr ""
 
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_thanks
+#. module: website_crm_personalizado
+#: model:ir.ui.view,arch_db:website_crm_personalizado.contactus_thanks
 msgid "Your message has been sent successfully."
 msgstr ""
