@@ -1,15 +1,14 @@
-Your Contact Form
+Formulario de contacto personalizado
 -----------------
 
-### Integrate contact forms with your leads
+### Integrar formularios de contacto con sus clientes potenciales
 
-This simple application integrates a contact form in your "Contact us" page.
-Forms submissions create leads automatically in <a href="https://www.odoo.com/page/crm">Odoo CRM</a>.
+Esta sencilla aplicación integra un formulario de contacto en su página "Contáctenos".
+Las presentaciones de formularios crean leads automáticamente en <a href="https://www.odoo.com/page/crm"> Odoo CRM </a>.
 
-Easy Contact Page
+Página de contacto fácil
 -----------------
 
-Get your leads filled up automatically with your contact form integration. This
-application allows a better qualification of the lead which is perfect to link
-them to marketing campaigns.
-
+Obtenga sus clientes potenciales llenos automáticamente con la integración de su formulario de contacto. Esta
+aplicación permite una mejor calificación de la ventaja que es perfecto para vincular
+a las campañas de marketing.

@@ -3,8 +3,9 @@
         <template id="contactus_form" name="Contact Form" inherit_id="website.contactus" customize_show="True">
             <xpath expr="//div[@name='mail_button']" position="replace">
                 <div>
-                    <form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form form-horizontal container-fluid mt32" enctype="multipart/form-data" data-editable-form="false">
-                        <div class="form-group form-field o_website_form_required_custom">
+
+<form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form form-horizontal container-fluid mt32" enctype="multipart/form-data" data-editable-form="false">
+                         <div class="form-group form-field o_website_form_required_custom">
                             <label class="col-md-3 col-sm-4 control-label" for="contact_name">Your Name</label>
                             <div class="col-md-7 col-sm-8">
                                 <input type="text" class="form-control o_website_form_input" name="contact_name" t-att-value="request.params.get('contact_name', '')" required=""/>
@@ -41,12 +42,61 @@
                             </div>
                         </div>
                         <div class="form-group">
+                           <br/>
+                           <label class="col-md-3 col-sm-4 control-label" for="description"/>
+                            <div class="col-md-7 col-sm-8 terms container">
+                           <input type="checkbox" id="terminos_checkbox" name="terminos_checkbox" required="checked" t-att-value="request.params.get('terminos_checkbox', '')"/> <span>Acepto los <a href="/legal/terms-of-use">términos y condiciones</a> de Odoolibre.es</span>
+                           <div class="terms-noty">Aceptar términos y condiciones.</div>
+                           </div>
+                        </div>
+                     
+                        <div class="form-group">
                             <div class="col-md-offset-3 col-sm-offset-4 col-sm-8 col-md-7">
-                                <span class="btn btn-primary btn-lg o_website_form_send">Send</span>
-                                <span id="o_website_form_result"></span>
+                                <span class="button-enviar btn btn-primary btn-lg  fake-button">Send</span>
+                                <span class="button-enviar btn btn-primary btn-lg  real-button o_website_form_send">Send</span>
+                                <br/><br/><span id="o_website_form_result"/>
                             </div>
                         </div>
+                        
                     </form>
+ <script>
+        $(document).on("click",".button-enviar",function(event)
+         {
+          if($(this).hasClass("fake-button"))
+          {
+            if ($("#terminos_checkbox").is(':checked')) 
+            {
+             
+            }
+            else
+            {
+             $(".terms-noty").fadeIn();
+            }
+          }
+         });
+         
+     
+         
+           $(document).on("click","#terminos_checkbox",function()
+           {
+            if ($("#terminos_checkbox").is(':checked')) 
+            {
+              $(".fake-button").hide("fast"); 
+              $(".real-button").fadeIn("fast"); 
+              $(this).attr("disabled","true");
+              $(".terms-noty").fadeOut();
+            }
+            else
+            {
+              $(".real-button").hide("fast",function()
+              {
+               $(".fake-button").fadeIn("fast");
+              });
+            }
+           });
+         
+     </script>
+
                 </div>
 			</xpath>
 		</template>
