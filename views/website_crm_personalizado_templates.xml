@@ -52,8 +52,8 @@
                      
                         <div class="form-group">
                             <div class="col-md-offset-3 col-sm-offset-4 col-sm-8 col-md-7">
-                                <span class="button-enviar btn btn-primary btn-lg  fake-button">Send</span>
-                                <span class="button-enviar btn btn-primary btn-lg  real-button o_website_form_send">Send</span>
+                                <span class="button-enviar btn btn-primary btn-lg  fake-button">Enviar</span>
+                                <span class="button-enviar btn btn-primary btn-lg  real-button o_website_form_send">Enviar</span>
                                 <br/><br/><span id="o_website_form_result"/>
                             </div>
                         </div>
